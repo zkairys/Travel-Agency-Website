@@ -1,0 +1,30 @@
+header{
+    background: $background-gradient-blue;
+    height: 80px;
+
+    @include min-screen(1024px) {
+        height: 90px;
+    }
+
+    
+   
+
+    .mobile-menu{
+        cursor: pointer;
+        display: flex;
+        position: relative;
+        padding-top: 28px;
+        width: 26px;
+        span {
+            @include burger(0px, 3px);
+            &:first-child{
+                @include burger(8px, 3px);
+            }
+            &:last-child{
+                @include burger(16px, 3px);
+            }
+            
+        }
+    }
+    
+}
