@@ -1,0 +1,17 @@
+header{
+    background: $background-gradient-blue;
+    height: 90px;
+
+
+    .mobile-menu{
+        display: flex;
+        span {
+            @include burger(0px, 3px, none);
+            @include min-screen(768px) {
+                @include burger(0px, 5px, none);
+    
+            }
+        }
+    }
+    
+}

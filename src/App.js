@@ -1,19 +1,25 @@
 import React, { Component } from 'react';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import About from './components/About'
+import { Route, BrowserRouter, Switch } from 'react-router-dom';
 import './App.scss';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <p>
-            zk
-          </p>
-
-        </header>
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <Navbar />
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route path='/about' component={About} />
+          </Switch>
+        </div>
+      </BrowserRouter>
     );
   }
 }
 
 export default App;
+
