@@ -1,0 +1,25 @@
+// @include min-screen(768px) {
+//     display: grid;
+//     grid-template-columns: repeat(2, (261px/768px) * 100vw);
+//     grid-column-gap: (42px/768px) * 100vw;
+// }
+
+// @include min-screen(1024px) {
+//     grid-template-columns: repeat(20, (30px/1024px) * 100vw);
+//     grid-column-gap: (8px/1024px) * 100vw;
+// }
+
+// @include min-screen(1440px) {
+//     grid-template-columns: repeat(20, 30px);
+//     grid-column-gap: 24px;
+// }
+
+// grid-column: span 1;
+// justify-content: space-between;
+
+.inner{
+    margin: 0 auto;
+    padding: 50px;
+    max-width: 1080px;
+    position: relative;
+}

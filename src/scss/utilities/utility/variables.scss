@@ -4,3 +4,17 @@ $color-white: #ffffff;
 $background-gradient-blue: linear-gradient(to left, #28a5f5, #1e87f0);
 
 $background-white: #ffffff;
+
+
+
+//font
+// @import url('https://fonts.googleapis.com/css?family=Dosis:300,400,600|Nunito');
+
+//fallback fonts
+$fallback: Arial, sans-serif;
+
+//headings
+$font-dosis: "Dosis", $fallback;
+
+// copy btns and etc..
+$font-nunito: "Nunito", $fallback;
