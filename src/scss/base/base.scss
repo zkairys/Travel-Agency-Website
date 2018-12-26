@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+html {
+  // defines 1 rem
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  color: blue;
+
+  font-family: "Dosis", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  padding: 3rem;
+
+  background-color: green;
+    @include min-screen(768px) {
+        background-color: red;
+    }
+
+    @include min-screen(1024px) {
+        background-color: blue;
+    }
+
+    @include min-screen(1440px) {
+        background-color: black;
+    }
+}
