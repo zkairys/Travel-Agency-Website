@@ -4,7 +4,10 @@ import BlogPost from '../components/BlogPost.jsx'
 const Blog = (props) => {
     return (
         <div className="inner">
-            <BlogPost />
+            <div className="blogs">
+                <BlogPost />
+            </div>
+
         </div>
     )
 }
