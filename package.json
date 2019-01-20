@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@uppy/core": "^0.29.1",
     "axios": "^0.18.0",
     "node-sass": "^4.11.0",
     "prop-types": "^15.6.2",

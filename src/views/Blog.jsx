@@ -1,5 +1,5 @@
 import React from 'react'
-import BlogPost from '../components/BlogPost.jsx'
+import BlogPost from '../components/BlogPost'
 
 const Blog = (props) => {
     return (
