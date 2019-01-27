@@ -4,8 +4,8 @@ import React from 'react'
 
 export class ContactForm extends React.Component {
     state = {
-        name: " ",
-        email: " "
+        name: "",
+        email: ""
     }
     
 
